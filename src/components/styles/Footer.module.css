@@ -4,6 +4,7 @@
     font-family: 'Poppins';
     display: flex;
     gap: 2rem;
+    user-select: none;
     /* flex-direction: column; */
 }
 .container a {
@@ -12,12 +13,13 @@
     font-weight: 700;
     text-decoration: none;
     cursor: pointer;
+    /* background: red; */
 }
 .container a:hover {
     color: gray;
 }
 footer{
-    padding: 3rem 2rem 0rem 2rem;
+    padding: 2rem 2rem 0rem 2rem;
     display: flex;
     justify-content: space-around;
     flex-direction: column;

@@ -65,7 +65,7 @@ function App() {
   let styles = {
     padding:{
       position: 'relative',
-      top: '68px',
+      // top: '68px',
       padding: '3rem 0 3rem 0'
   }}
 
